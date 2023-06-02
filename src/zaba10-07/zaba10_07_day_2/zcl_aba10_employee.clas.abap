@@ -1,0 +1,20 @@
+CLASS zcl_aba10_employee DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    DATA name TYPE string.
+    DATA family_name TYPE string.
+    DATA sex TYPE string.
+    DATA salary TYPE i.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_ABA10_EMPLOYEE IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>ZABA10_01</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_ABA10_01_GFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_ABA10_01_GF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_ABA10_01_CIRCLE_AREA</FUNCNAME>
+     <SHORT_TEXT>Z_ABA10_01_CIRCLE_AREA</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>RAD</PARAMETER>
+       <DEFAULT>0</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>F</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>F</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>radius</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RES</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
