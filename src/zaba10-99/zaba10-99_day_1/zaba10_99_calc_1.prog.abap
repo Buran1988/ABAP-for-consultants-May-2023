@@ -15,3 +15,5 @@ my_percentage = '3.05'.
 resultat = my_var_1 * my_percentage / 100.
 
 WRITE resultat.
+
+* Обновил 13.09.2023
