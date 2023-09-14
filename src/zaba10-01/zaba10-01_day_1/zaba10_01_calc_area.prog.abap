@@ -22,3 +22,5 @@ CALL FUNCTION 'Z_ABA10_01_CIRCLE_AREA'
     res = circ_area.
 
 WRITE |Площадь круга для радиуса { pa_rad } равна { circ_area }. | .
+
+* Всем привет! 14.09.2023
